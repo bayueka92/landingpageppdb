@@ -900,8 +900,12 @@
     <script>
         function belumbuka() {
         swal({
-          'title': "Pendaftaran",
-          'text': "Segera Dibuka",
+          'title': "<strong>Pendaftaran</strong>",
+          'text': "Belum Dibuka",
+          html:
+            'You can use <b>bold text</b>, ' +
+            '<a href="//sweetalert2.github.io">links</a> ' +
+            'and other HTML tags',
           'type': "warning",
           'confirmButtonText': "OK"
         });
@@ -910,8 +914,12 @@
   <script>
     function logingagal() {
     swal({
-      'title': "Oops!!",
+      'title': "<strong>Oops!!</strong>",
       'text': "Login Belum Dibuka",
+      html:
+          'You can use <b>bold text</b>, ' +
+          '<a href="//sweetalert2.github.io">links</a> ' +
+          'and other HTML tags',
       'type': "error",
       'confirmButtonText': "OK"
     });
